@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+
+// tee doc infoaken.php 
+// tee infokastile salvestusnupp mis käivitab käsu <form action="infoaken.php" method="post">
+// lehe käivitamisele lisa käsk <form action="infoaken.php" method="get">
+
+1)
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="infoaken.php">
+  <br>
+  <input type="text" value="">
+  
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
+
+2) PAREM
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="infoaken.php">
+  <textarea name="message" rows="10" cols="30"></textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+3) 
+<form action="/action_page.php" method="get">
+ <textarea name="message" rows="10" cols="30"></textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
