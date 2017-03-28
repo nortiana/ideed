@@ -47,3 +47,22 @@
   <br>
   <input type="submit" value="Submit">
 </form>
+
+//PROOVI
+
+<!DOCTYPE HTML>
+<html>  
+<body>
+
+<form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>
+
+//kasuta <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> (https://www.w3schools.com/php/php_form_validation.asp)
+
+// proovi sellega https://www.w3schools.com/php/php_file_open.asp
